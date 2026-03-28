@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Nausherdin</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Mono:wght@300;400&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">N<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+  </nav>
+  <section class="page-hero">
+    <div class="container">
+      <p class="section-label">What I've Built</p>
+      <h1 class="page-title">Projects</h1>
+    </div>
+  </section>
+  <div class="filter-bar">
+    <div class="container">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="rpa">RPA</button>
+      <button class="filter-btn" data-filter="ai">AI / LLM</button>
+      <button class="filter-btn" data-filter="pm">Program Mgmt</button>
+    </div>
+  </div>
+  <section class="projects-body">
+    <div class="container">
+      <div class="projects-full-grid">
+        <div class="pf-card" data-category="rpa">
+          <div class="pf-header rpa-header">
+            <div class="pf-tag">RPA · R1RCM</div>
+            <div class="pf-status">Delivered</div>
+          </div>
+          <h3>LogIQ — Log Intelligence Platform</h3>
+          <p>Built an ELK-based logging framework that centralized all automation team logs. LogIQ extracts from ELK, stores in SQL, and processes ~250M weekly logs — enabling faster queries, simplified analytics, and real-time alerting.</p>
+          <div class="pf-tech">
+            <span>ELK Stack</span><span>SQL</span><span>Power BI</span><span>Real-time Alerting</span>
+          </div>
+        </div>
+        <div class="pf-card" data-category="rpa">
+          <div class="pf-header rpa-header">
+            <div class="pf-tag">RPA · R1RCM</div>
+            <div class="pf-status">Delivered</div>
+          </div>
+          <h3>API Integration Suite</h3>
+          <p>Developed bot integrations with DocuSign, Twilio, and Azure Blob Storage — enabling fully automated, real-time patient document workflows across R1RCM operations.</p>
+          <div class="pf-tech">
+            <span>DocuSign API</span><span>Twilio</span><span>Azure Blob</span><span>Automation Anywhere</span>
+          </div>
+        </div>
+        <div class="pf-card" data-category="rpa">
+          <div class="pf-header rpa-header">
+            <div class="pf-tag">RPA · R1RCM</div>
+            <div class="pf-status">Delivered</div>
+          </div>
+          <h3>RabbitMQ Queuing for RPA</h3>
+          <p>Introduced RabbitMQ as the queuing backbone for the automation team. Also built a CI/CD pipeline to automate bot deployments end to end.</p>
+          <div class="pf-tech">
+            <span>RabbitMQ</span><span>CI/CD</span><span>Automation Anywhere A360</span>
+          </div>
+        </div>
+        <div class="pf-card" data-category="rpa">
+          <div class="pf-header rpa-header">
+            <div class="pf-tag">RPA · R1RCM</div>
+            <div class="pf-status">Delivered</div>
+          </div>
+          <h3>CEO-Priority Bot — 24hr Delivery</h3>
+          <p>Delivered a mission-critical RPA bot within 24 hours on direct request from the CEO. Separately optimized a high-priority bot from 4 minutes processing time down to 3 seconds.</p>
+          <div class="pf-tech">
+            <span>Automation Anywhere</span><span>Performance Optimization</span>
+          </div>
+        </div>
+        <div class="pf-card" data-category="rpa">
+          <div class="pf-header rpa-header">
+            <div class="pf-tag">RPA · Infosys</div>
+            <div class="pf-status">Delivered</div>
+          </div>
+          <h3>175,000 Hours Automated</h3>
+          <p>Led a 3-year automation program eliminating 175,000+ hours of recurring manual work from healthcare claims processing. Grew from 20K hours in 2019 to 175K by end of 2021.</p>
+          <div class="pf-tech">
+            <span>Automation Anywhere</span><span>Healthcare</span><span>Claims Processing</span>
+          </div>
+        </div>
+        <div class="pf-card" data-category="rpa">
+          <div class="pf-header rpa-header">
+            <div class="pf-tag">RPA · Infosys</div>
+            <div class="pf-status">Delivered</div>
+          </div>
+          <h3>Custom Orchestrator with Queue Management</h3>
+          <p>Developed a custom Orchestrator using pull/push mechanisms as an internal alternative to AA native work queues. Also integrated Skype chatbot triggers with role-based authorization.</p>
+          <div class="pf-tech">
+            <span>Automation Anywhere</span><span>Skype Integration</span><span>Queue Management</span>
+          </div>
+        </div>
+        <div class="pf-card" data-category="rpa">
+          <div class="pf-header rpa-header">
+            <div class="pf-tag">RPA · Verizon</div>
+            <div class="pf-status">Delivered</div>
+          </div>
+          <h3>Web Services Automation — Verizon</h3>
+          <p>Defined RPA strategy for SOAP/REST web services at Verizon. Created process diagrams, worked with business owners, and implemented end-to-end bot solutions.</p>
+          <div class="pf-tech">
+            <span>SOAP / REST</span><span>Automation Anywhere</span><span>Process Design</span>
+          </div>
+        </div>
+        <div class="pf-card" data-category="rpa">
+          <div class="pf-header rpa-header">
+            <div class="pf-tag">RPA · FedEx</div>
+            <div class="pf-status">Delivered</div>
+          </div>
+          <h3>Logistics Automation &amp; Platform Upgrade</h3>
+          <p>Built automation solutions for FedEx logistics and led the platform upgrade from Automation Anywhere v10.5 to v11.3.1 including full environment migration.</p>
+          <div class="pf-tech">
+            <span>Automation Anywhere v10-v11</span><span>Server Admin</span><span>Logistics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <p>© 2026 Nausherdin</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
