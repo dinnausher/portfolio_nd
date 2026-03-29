@@ -1,8 +1,4 @@
-/* =============================================
-   NAUSHERDIN.COM — Portfolio Stylesheet
-   Aesthetic: Editorial Dark / Refined Minimal
-   Fonts: Syne (display) + Cormorant Garamond (body) + DM Mono (accents)
-   ============================================= */
+* { outline: 1px solid red; }
 
 :root {
   --bg:        #0d0d0d;
