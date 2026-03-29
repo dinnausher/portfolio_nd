@@ -126,6 +126,8 @@ ul { list-style: none; }
   pointer-events: none;
   user-select: none;
   animation: fadeIn 1.4s ease forwards;
+  max-width: 100vw;
+  overflow: hidden;
 }
 
 .hero-content {
@@ -902,6 +904,7 @@ ul { list-style: none; }
   }
   .nav-toggle { display: block; }
   .hero { padding: 0 1.5rem; padding-top: var(--nav-h); }
+  .hero-bg-text { display: none; }
   .snapshot { padding: 2rem 1.5rem; }
   .snapshot-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
   .footer { padding: 2rem 1.5rem; }
