@@ -21,7 +21,10 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; }
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
 
 body {
   background: var(--bg);
@@ -105,6 +108,8 @@ ul { list-style: none; }
   padding-top: var(--nav-h);
   position: relative;
   overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .hero-bg-text {
@@ -140,9 +145,9 @@ ul { list-style: none; }
 .hero-name {
   font-family: 'Syne', sans-serif;
   font-weight: 800;
-  font-size: clamp(2.5rem, 9vw, 7.5rem);
+  font-size: clamp(2rem, 8vw, 7.5rem);
   letter-spacing: -0.03em;
-  line-height: 0.95;
+  line-height: 1.05;
   color: var(--text);
   margin-bottom: 1.5rem;
 }
