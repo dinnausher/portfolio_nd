@@ -224,7 +224,8 @@ ul { list-style: none; }
   background: var(--bg2);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
-  padding: 3rem 3rem;
+  padding: 3rem 1.5rem;
+  overflow: hidden;
 }
 
 .snapshot-grid {
