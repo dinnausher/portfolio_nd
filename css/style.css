@@ -404,7 +404,12 @@ ul { list-style: none; }
   border: 2px solid var(--border);
   flex-shrink: 0;
 }
-.about-intro { flex: 1; min-width: 200px; }
+.about-intro p {
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
 .about-body { padding: 5rem 0 6rem; }
 
 .about-grid {
