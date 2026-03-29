@@ -376,6 +376,23 @@ ul { list-style: none; }
 }
 
 /* ======================== ABOUT ======================== */
+.about-photo-row {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+.profile-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 12px;
+  border: 2px solid var(--border);
+  flex-shrink: 0;
+}
+.about-intro { flex: 1; min-width: 200px; }
 .about-body { padding: 5rem 0 6rem; }
 
 .about-grid {
